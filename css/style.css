@@ -1,0 +1,223 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+  background-color: #e3e3e3;
+  display: block;
+  font-family: 'Merriweather-Light',Georgia,sans-serif;
+  position: relative;
+}
+
+/*#insert-image{
+	background-image: url('../img/ai_hero_small.jpg') top center no-repeat;
+	width: 100%;
+}*/
+
+header{
+	width:100%;
+	background: black;
+	/*position: fixed;*/
+}
+
+.learn-ai{
+  font-family: 'Anton', sans-serif;
+  font-size: 56px;
+  line-height: 80px;
+  /*height: 90px;*/
+  text-align: center;
+  background: black;
+  color: white;
+  float: left;
+}
+
+/*.headul{
+	height: 90px;
+}*/
+
+.head{
+	clear:both;
+}
+
+.btn-lg{
+	clear: both;
+}
+
+#hero-unit{
+	top:0px;
+}
+
+/*.row{
+	margin-bottom: 15px;
+}
+
+.row > div{
+	border: 2px solid red;
+	background-color: grey;
+}*/
+
+/*.test-area-left{
+	background: green;
+	height: 50px;
+}
+
+.test-area-middle{
+	background: red;
+	height: 50px;
+}
+*/
+
+.navbar-head{
+	background: black;
+}
+
+#navbar{
+	background: black;
+	border: 0;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	color: white;
+  background-color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #777;
+}
+
+#custom-hr{
+	height: 0;
+	margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 1px solid rgba(5, 4, 3, 0.56);
+}
+
+
+/* -----------------------------------
+	 Media Queries
+------------------------------------*/
+
+/*Portrait and landscape phone */
+@media (max-width: 480px){
+	.learn-ai{
+	  font-family: 'Anton', sans-serif;
+	  font-size: 42px;
+	  line-height: 54px;
+	  text-align: left;
+	  /*margin: 0 0 0 -30%;*/
+	  background: black;
+	  color: white;
+	  padding-top: 8px;
+	}
+
+	#hero-unit .container-fluid .row .insert-hero {
+		content: url('./../img/ai_hero_small.jpg');
+		width: 100%;
+	}
+
+	.hero-text {
+		font-size: 22px;
+	  line-height: 32px;
+	  padding: 20px;
+	  text-align: justify;
+	}
+
+	#page-footer{
+	  background: black;
+	  padding: 20px 0 40px;
+	  font-size: 12px;
+	  color: #ccc;
+	}
+
+	.navbar-toggle{
+		margin-top: 13px;
+	}
+}
+
+#button{
+	margin: 10px 0;
+}
+
+ul{
+	padding-left: 0px;
+}
+
+/* Landscape phone to potrait tablet*/
+@media (min-width: 481px) and (max-width: 768px){
+	.learn-ai{
+	  font-family: 'Anton', sans-serif;
+	  font-size: 48px;
+	  line-height: 54px;
+	  text-align: left;
+	  /*margin: 0 0 0 -30%;*/
+	  background: black;
+	  color: white;
+	  padding-top: 10px;
+	}
+
+	#hero-unit .container-fluid .row .insert-hero {
+		content: url('./../img/ai_hero_medium.jpg');
+		width: 100%;
+	}
+
+	.hero-text {
+		font-size: 36px;
+	  line-height: 42px;
+	  padding: 30px;
+		text-align: center;
+	}
+
+	#page-footer{
+	  background: black;
+	  padding: 30px 0 60px;
+	  font-size: 12px;
+	  color: #ccc;
+	}
+
+	.navbar-toggle{
+		margin-top: 13px;
+	}
+}
+
+/* Large Desktop */
+@media (min-width: 769px){
+	.learn-ai{
+	  font-family: 'Anton', sans-serif;
+	  font-size: 48px;
+	  line-height: 56px;
+	  /*text-align: center;*/
+	  margin: 0;
+	  background: black;
+	  color: white;
+	  padding-top: 10px;
+	}
+
+	#hero-unit .container-fluid .row .insert-hero {
+		content: url('./../img/ai_hero.jpg');
+		width: 100%;
+	}
+
+	.hero-text {
+		box-sizing: border-box;
+	  font-family: inherit;
+	  text-align: center;
+	  vertical-align: center;
+	  font-size: 45px;
+	  line-height: 55px;
+	  padding: 40px;
+	  text-align: center;
+	}
+
+	#page-footer{
+	  background: black;
+	  padding: 50px 0 80px;
+	  font-size: 12px;
+	  color: #ccc;
+	}
+
+	.navbar-nav>li>a{
+		line-height: 25px;
+	}
+}
+
